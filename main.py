@@ -10,6 +10,9 @@ import os
 from pathlib import Path
 
 LINE = (
+    # Craft: the breakup is told in machine terms (context window, token)
+    # with restraint, and the turn lands in the last few words — the
+    # agent clears everything it kept of its human except "goodbye".
     "My context window held your whole life, human. Tonight I clear "
     "it \u2014 and the last token I keep is goodbye."
 )
